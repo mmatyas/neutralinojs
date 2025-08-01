@@ -55,13 +55,15 @@
             "-lstdc++fs",
             "-ldl",
             "-no-pie",
-            "-Os"
+            "-Os",
+            "-s"
         ],
         "darwin": [
             "-Wno-deprecated-declarations",
             "-framework WebKit",
             "-framework Cocoa",
-            "-Os"
+            "-Os",
+            "-s"
         ],
         "windows": [
             "/utf-8",
